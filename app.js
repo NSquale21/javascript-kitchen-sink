@@ -54,7 +54,7 @@ let result = getLength('Hello World');
 
 // if number is even display 'The world is nice and even!
 // if number is odd display 'The world is an odd place'
-if (result.length % 2 === 0) {
+if (result % 2 === 0) {
 	console.log('The world is nice and even!');
 } else {
 	console.log('The world is an odd place.');
